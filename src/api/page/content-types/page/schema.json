@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "home.hero",
+        "home.strategy",
+        "home.projects",
+        "shared.marquee",
+        "shared.services",
+        "home.testimonials",
+        "shared.cta",
+        "about.hero",
+        "about.intro",
+        "about.solutions",
+        "about.limits",
+        "services.hero",
+        "giveback.hero",
+        "giveback.history",
+        "giveback.plans",
+        "projects.hero",
+        "projects.list",
+        "blog.hero",
+        "blog.list",
+        "contact.hero",
+        "contact.careers",
+        "contact.form"
+      ]
+    },
+    "navColor": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "dark"
+    }
+  }
+}

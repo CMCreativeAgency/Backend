@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_giveback_plans",
+  "info": {
+    "displayName": "plans"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

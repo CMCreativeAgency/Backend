@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_files",
+  "info": {
+    "displayName": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "types": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

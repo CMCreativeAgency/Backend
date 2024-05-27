@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_infos",
+  "info": {
+    "displayName": "info"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "textContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text-content"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

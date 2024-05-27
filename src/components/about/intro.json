@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_intros",
+  "info": {
+    "displayName": "intro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "content": {
+      "type": "text"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

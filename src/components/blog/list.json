@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blog_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "isEnabled": {
+      "type": "boolean"
+    }
+  }
+}

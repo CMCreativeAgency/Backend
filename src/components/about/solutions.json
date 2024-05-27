@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_solutions",
+  "info": {
+    "displayName": "solutions"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

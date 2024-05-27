@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blog_heroes",
+  "info": {
+    "displayName": "hero"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

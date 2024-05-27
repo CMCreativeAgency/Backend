@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_marquees",
+  "info": {
+    "displayName": "marquee",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "parallax": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_projects_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "isEnabled": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

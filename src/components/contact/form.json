@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_contact_forms",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subhead": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.button"
+    },
+    "content": {
+      "type": "text"
+    },
+    "form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

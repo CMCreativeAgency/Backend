@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_projects",
+  "info": {
+    "displayName": "projects"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_testimonials",
+  "info": {
+    "displayName": "testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}

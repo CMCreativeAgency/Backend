@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_contents",
+  "info": {
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.content"
+    }
+  }
+}
