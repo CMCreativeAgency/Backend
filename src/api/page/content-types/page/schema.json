@@ -43,7 +43,8 @@
         "blog.list",
         "contact.hero",
         "contact.careers",
-        "contact.form"
+        "contact.form",
+        "legal.content"
       ]
     },
     "navColor": {

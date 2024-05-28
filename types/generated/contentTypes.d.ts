@@ -841,6 +841,7 @@ export interface ApiFormForm extends Schema.CollectionType {
     fields: Attribute.DynamicZone<
       ['ui.input', 'ui.select', 'ui.file', 'ui.button']
     >;
+    thankyou: Attribute.Component<'ui.thankyou'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -925,7 +926,8 @@ export interface ApiPagePage extends Schema.CollectionType {
         'blog.list',
         'contact.hero',
         'contact.careers',
-        'contact.form'
+        'contact.form',
+        'legal.content'
       ]
     >;
     navColor: Attribute.Enumeration<['light', 'dark']> &

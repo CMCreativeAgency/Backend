@@ -27,6 +27,11 @@
         "ui.file",
         "ui.button"
       ]
+    },
+    "thankyou": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.thankyou"
     }
   }
 }

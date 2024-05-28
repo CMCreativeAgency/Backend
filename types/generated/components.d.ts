@@ -199,6 +199,23 @@ export interface HomeTestimonials extends Schema.Component {
   };
 }
 
+export interface LegalContent extends Schema.Component {
+  collectionName: 'components_legal_contents';
+  info: {
+    displayName: 'content';
+  };
+  attributes: {
+    heading: Attribute.Text;
+    content: Attribute.RichText &
+      Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'toolbar';
+        }
+      >;
+  };
+}
+
 export interface PostContent extends Schema.Component {
   collectionName: 'components_post_contents';
   info: {
@@ -573,6 +590,17 @@ export interface UiText extends Schema.Component {
   };
 }
 
+export interface UiThankyou extends Schema.Component {
+  collectionName: 'components_ui_thankyous';
+  info: {
+    displayName: 'thankyou';
+  };
+  attributes: {
+    heading: Attribute.Text;
+    content: Attribute.Text;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -592,6 +620,7 @@ declare module '@strapi/types' {
       'home.projects': HomeProjects;
       'home.strategy': HomeStrategy;
       'home.testimonials': HomeTestimonials;
+      'legal.content': LegalContent;
       'post.content': PostContent;
       'post.hero': PostHero;
       'project.content': ProjectContent;
@@ -619,6 +648,7 @@ declare module '@strapi/types' {
       'ui.testimonial': UiTestimonial;
       'ui.text-content': UiTextContent;
       'ui.text': UiText;
+      'ui.thankyou': UiThankyou;
     }
   }
 }
