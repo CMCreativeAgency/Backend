@@ -839,7 +839,7 @@ export interface ApiFormForm extends Schema.CollectionType {
     title: Attribute.String;
     slug: Attribute.UID<'api::form.form', 'title'>;
     fields: Attribute.DynamicZone<
-      ['ui.input', 'ui.select', 'ui.file', 'ui.button']
+      ['ui.input', 'ui.select', 'ui.file', 'ui.button', 'ui.textarea']
     >;
     thankyou: Attribute.Component<'ui.thankyou'>;
     createdAt: Attribute.DateTime;

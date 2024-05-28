@@ -590,6 +590,19 @@ export interface UiText extends Schema.Component {
   };
 }
 
+export interface UiTextarea extends Schema.Component {
+  collectionName: 'components_ui_textareas';
+  info: {
+    displayName: 'textarea';
+  };
+  attributes: {
+    label: Attribute.String;
+    placeholder: Attribute.String;
+    name: Attribute.String;
+    required: Attribute.Boolean & Attribute.DefaultTo<false>;
+  };
+}
+
 export interface UiThankyou extends Schema.Component {
   collectionName: 'components_ui_thankyous';
   info: {
@@ -648,6 +661,7 @@ declare module '@strapi/types' {
       'ui.testimonial': UiTestimonial;
       'ui.text-content': UiTextContent;
       'ui.text': UiText;
+      'ui.textarea': UiTextarea;
       'ui.thankyou': UiThankyou;
     }
   }

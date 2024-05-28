@@ -25,7 +25,8 @@
         "ui.input",
         "ui.select",
         "ui.file",
-        "ui.button"
+        "ui.button",
+        "ui.textarea"
       ]
     },
     "thankyou": {
